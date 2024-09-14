@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "package": "dev.ng5m.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "MixinMessageToMessageDecoder"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "client": [
+    "MixinMultiplayerScreen"
+  ]
+}
